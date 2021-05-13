@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.fea88d6a.chunk.css",
+    "main.js": "./static/js/main.5c88c381.chunk.js",
+    "main.js.map": "./static/js/main.5c88c381.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.99b8f0f4.js",
+    "runtime-main.js.map": "./static/js/runtime-main.99b8f0f4.js.map",
+    "static/js/2.3e140f94.chunk.js": "./static/js/2.3e140f94.chunk.js",
+    "static/js/2.3e140f94.chunk.js.map": "./static/js/2.3e140f94.chunk.js.map",
+    "static/js/3.015575f1.chunk.js": "./static/js/3.015575f1.chunk.js",
+    "static/js/3.015575f1.chunk.js.map": "./static/js/3.015575f1.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.fea88d6a.chunk.css.map": "./static/css/main.fea88d6a.chunk.css.map",
+    "static/js/2.3e140f94.chunk.js.LICENSE.txt": "./static/js/2.3e140f94.chunk.js.LICENSE.txt",
+    "static/media/Infrastructure.scss": "./static/media/illustration-phones.fd23559f.svg",
+    "static/media/Header.scss": "./static/media/icon-hamburger.68867946.svg",
+    "static/media/NavigationMobile.scss": "./static/media/icon-arrow-dark.5215f8d9.svg",
+    "static/media/NavigationDesktop.scss": "./static/media/icon-arrow-light.9ba0f38e.svg",
+    "static/media/Intro.scss": "./static/media/illustration-editor-mobile.b9c7941a.svg",
+    "static/media/Application.scss": "./static/media/illustration-laptop-mobile.fe1ec0f0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99b8f0f4.js",
+    "static/js/2.3e140f94.chunk.js",
+    "static/css/main.fea88d6a.chunk.css",
+    "static/js/main.5c88c381.chunk.js"
+  ]
+}
