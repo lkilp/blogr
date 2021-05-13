@@ -1,0 +1,76 @@
+.Intro {
+    height: 900px;
+    position: relative;
+    color: var(--very-dark-blue);
+    display: flex;
+    &>* {
+        flex: 1;
+    }
+
+    h2 {
+        position: absolute;
+        font-size: 38px;
+        top: 120px; 
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+        width: 100%;
+        
+    }
+
+    .left {
+        padding-top: 240px;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 100px;
+    }
+
+
+
+    .right {
+        background-image: url("../assets/images/illustration-editor-desktop.svg"); 
+        background-repeat: no-repeat;
+        background-size: 120%;
+        background-position: -70% 90%;
+        padding-right: 100px;
+    }
+
+    .image-holder {
+        height: 100%;
+        background-image: url("../assets/images/illustration-editor-desktop.svg"); 
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: 140% 60%;
+    }
+
+    @media screen and (max-width: 475px) {
+        & {
+            flex-direction: column;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 26px;
+            order: -1;
+            top: 0px;
+            position: inherit;
+            padding-top: 50px;
+        }
+
+        .left {
+            padding: 0;
+            order: 1;
+        }
+
+        .right {
+            padding: 0;
+            background-size: 110%;
+            background-position: center;
+            order: 0;
+            min-height: 400px;
+            background-image: url("../assets/images/illustration-editor-mobile.svg"); 
+        }
+        
+    }
+
+}
