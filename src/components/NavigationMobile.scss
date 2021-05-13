@@ -1,0 +1,100 @@
+.Navigation {
+    @media screen and (max-width: 475px) {
+        & {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            top: 130px;
+            left: 0;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 20px;      
+        }
+
+        nav {
+            width: 100%;
+            background-color: var(--text-white);
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(black, 0.3);
+            color: var(--very-dark-blue);
+            z-index: 1;    
+        }
+
+        .Menu {
+            padding: 20px 20px 0 20px;
+        }
+
+        .Menu>li {
+            font-weight: 600;
+            padding-bottom: 20px;
+
+            & li {
+                padding: 10px 0;
+            }
+
+            & a {
+              font-weight: normal;  
+            }
+        }
+
+
+        
+        a {
+            color: var(--very-dark-blue);
+            font-weight: 600;
+        }
+
+        .buttons.top {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 30px 0px;
+            margin: 0 20px;
+            border-top: 1px solid var(--gray);
+
+            button {
+                background: linear-gradient(to right, var(--very-light-red-gradient), var(--light-red-gradient));;
+                margin: 20px 0;
+                a {
+                    color: var(--text-white);
+                }
+
+            }
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+
+        .sub-list {
+            display: block;
+            background-color: var(--gray);
+            border-radius: 5px;
+            padding: 10px 0px;
+            margin-top: 20px;
+        }
+
+        .icon {
+            --size: 16px;
+            width: var(--size);
+            height: var(--size);
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 0 5px;
+            background-image: url("../assets/images/icon-arrow-dark.svg");
+            display: inline-block; 
+
+            &.opened {
+                transform: rotate(180deg);
+            }
+
+        }
+
+        
+    }
+
+}
