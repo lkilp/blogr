@@ -8,7 +8,7 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const determineMobile = () => window.innerWidth < 475;
-    const [isMobile, setIsMobile] = useState(determineMobile()); 
+    const [isMobile, setIsMobile] = useState(determineMobile());
     useEffect(() => {
         const listener = () => {
             setIsMobile(determineMobile());
@@ -16,19 +16,19 @@ const Header = () => {
         window.addEventListener('resize', listener);
     });
 
-    const buttonClasses = [ 'menu-icon' ];
-    if(menuOpen) {
+    const buttonClasses = ['menu-icon'];
+    if (menuOpen) {
         buttonClasses.push('close');
     }
 
     console.log(window.innerWidth);
 
-    return(
+    return (
         <div className="Header">
             <div className="background-pattern">
                 <div className="navigation-bar">
                     <h2 className="blogr">Blogr</h2>
-                    {isMobile && menuOpen && <NavigationMobile />}    
+                    {isMobile && menuOpen && <NavigationMobile />}
                     {!isMobile && <NavigationDesktop />}
                     <div className="hamburger-menu">
                         <button className={buttonClasses.join(' ')} onClick={() => setMenuOpen(!menuOpen)}></button>
@@ -37,8 +37,8 @@ const Header = () => {
                 <h1>A modern <br></br>publishing platform</h1>
                 <h2 className="description"> Grow your audience and build your online brand</h2>
                 <div className="buttons">
-                    <button><a href="/" className="white-button">Start for Free</a></button> 
-                    <button className="learn-more-button"><a href="/">Learn More</a></button> 
+                    <button><a href="." className="white-button">Start for Free</a></button>
+                    <button className="learn-more-button"><a href=".">Learn More</a></button>
                 </div>
             </div>
         </div>
@@ -47,7 +47,6 @@ const Header = () => {
 export default Header;
 
 
-  
-  
-  
-  
+
+
+
